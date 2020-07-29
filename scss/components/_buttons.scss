@@ -1,0 +1,38 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  &:hover {
+    background-color: $primary-color-light;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+  }
+}
+
+.default {
+  background-color: $primary-color;
+}
+
+.error {
+  background-color: $contrast-color;
+}
+
+.info {
+  background-color: $button-active;
+}
+
+.success {
+  background-color: $secondary-color;
+}
+
+.warning {
+  background-color: $button-warning;
+}

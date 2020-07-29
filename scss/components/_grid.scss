@@ -1,0 +1,73 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^="col"] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme.col-1 {
+  background-color: $primary-color;
+}
+
+.theme.col-2 {
+  background-color: $contrast-color;
+}
+
+.theme.col-3 {
+  background-color: $secondary-color;
+}
+
+.theme.col-4 {
+  background-color: $primary-color;
+}
+
+.theme.col-5 {
+  background-color: $primary-color;
+}
+
+.theme.col-6 {
+  background-color: $secondary-color;
+}
+
+.theme.col-7 {
+  background-color: $primary-color;
+}
+
+.theme.col-8 {
+  background-color: $secondary-color;
+}
+
+.theme.col-9 {
+  background-color: $primary-color;
+}
+
+.theme.col-10 {
+  background-color: $secondary-color;
+}
+
+.theme.col-11 {
+  background-color: $primary-color;
+}
+
+.theme.col-12 {
+  background-color: $secondary-color;
+}
+
+.card {
+  flex-basis: 100%;
+}
