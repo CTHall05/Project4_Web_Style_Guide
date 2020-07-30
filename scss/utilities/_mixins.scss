@@ -1,7 +1,7 @@
 // Mixins ========
 
 @mixin mobile {
-  @media (min-width: $breakpoint-mobile) {
+  @media ($breakpoint-mobile) {
     @content;
   }
 }

@@ -30,5 +30,5 @@ $primary-color-light: lighten($primary-color, 15%);
 
 // Media Query Breakpoint =========
 
-$breakpoint-mobile: "(min-width: 768px)";
+$breakpoint-mobile: "min-width: 768px";
 $breakpoint-wide: "(max-width: 1024px)";
